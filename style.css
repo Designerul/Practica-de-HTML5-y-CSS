@@ -1,0 +1,82 @@
+h1{
+    font-family: impact;
+}
+
+section{
+    font-family: sans-serif;
+}
+
+
+.navegador{
+    background-color: 	#afcfd7;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    font-family: sans-serif;
+}
+
+.titulo_section{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+body{
+    text-align: center;
+}
+
+.fondo_index{
+    background-color: #e6dcbf;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#acerca{
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#conocimientos{
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#fortalezas{
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#proyectos{
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#admiro{
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.fondo_form{
+    justify-content: center;
+    background-color: #e6dcbf;
+    padding: 15px;
+    margin: 10px auto;
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+}
+
+#lista_1{
+    text-align: left;
+    display:inline-block;
+}
+
+#lista_2{
+    text-align: left;
+    display:inline-block;
+}

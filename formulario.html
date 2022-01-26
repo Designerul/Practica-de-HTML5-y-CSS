@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulario</title>
+
+        <div class="navegador">
+            <p style="text-align: right;">
+                <span style="float:left"><a href="formulario.html" class="link">Formulario</a></span>
+                <a href="index.html" class="upperRight">Index</a>
+            </p>
+        </div>
+    </head>
+
+    <body>
+        <div class="fondo_form">
+            <h1 class="Titulo">Contacto</h1>
+            <section class="formulario">
+                <p class="titulo_section">Formulario</p>
+                <form method="get" action="formulario.html">
+                    <input class="inputs" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre"><br>
+                    
+                    <input class="inputs" type="email" name="correo" id="correo" placeholder="Ingrese correo">
+                    
+                    <p>Especifique su género:</p>
+                    
+                    <input type="radio" name="gender" id="masculino">
+                    <label for="male">Masculino</label>
+                    
+                    <input type="radio" name="gender" id="femenino">
+                    <label for="female">Femenino</label>
+                    
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Otro</label><br><br><br>
+                    
+                    <input class="inputs" type="password" name="password" id="password" placeholder="Ingrese contraseña"><br>
+                    
+                    <input class="inputs" type="text" name="comment" id="comment" placeholder="Agregar comentario"><br><br>
+                    
+                    <label class="options" for="city">Selecciona tu ciudad:</label>
+                    <select id="city" name="cityList" form="cityForm">
+                        <option>Guadalajara</option>
+                        <option>Zapopan</option>
+                        <option>Tonalá</option>
+                        <option>Otra</option>
+                    </select><br><br>
+                    
+                    <input type="checkbox" name="contrato" id="contrato">
+                    <label class="options" for="contrato">Me interesa contratarte</label><br><br>
+                    
+                    <button class="button" type="submit">Enviar</button>
+                </form>
+                
+            </section>
+        </div>
+    </body>
+</html>
